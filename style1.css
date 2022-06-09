@@ -1,0 +1,87 @@
+.cell,.cell1{
+    background: rgb(1,112,5);
+background: linear-gradient(135deg, rgba(1,112,5,1) 0%, rgba(1,199,54,1) 50%, rgba(22,219,0,1) 100%);
+    width:150;
+    height: 150;
+    font-size:100;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+}
+.cell1{
+    font-size: 70;
+    background: rgb(112,1,1);
+background: linear-gradient(135deg, rgba(112,1,1,1) 0%, rgba(191,0,0,1) 50%, rgba(255,0,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.matrix1,.matrix2,.matrix3{
+    display: flex;
+    flex-direction: column;
+    width:450;
+    height: 450;
+}
+.matrix2{
+    position: absolute;
+    right:15%;
+}
+.matrix3{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prvi,.drugi,.treci{
+    display: flex;
+    flex-direction: row;
+}
+.rjesenje{
+    display: flex;
+    flex-direction: column;
+    
+    width:70vw;
+    height: 450;
+    margin-top: 50px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    height: 450;
+    width:70%;
+    
+    
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    margin-top:5%;
+    
+}
+.container{
+    min-height: 120vh;
+}
+.izmedu{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    
+}
+.gumbRandom{
+    display: flex;
+    height: 50px;
+    width: 200px;
+}
+.gumbClear{
+    display: flex;
+    height: 50px;
+    width: 200px;
+}
+.gumbZbroj{
+    margin-top: 10%;
+}
+.gumbZbroj,.gumbRazlika,.gumbMnozenje{
+    font-size: 50;
+    width:100px;
+    height: 100px;
+}
