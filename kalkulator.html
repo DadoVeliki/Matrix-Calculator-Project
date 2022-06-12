@@ -1,7 +1,6 @@
 <html>
     <head>
-        <title>Matematika</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>Matrix</title>
         <link rel="stylesheet" type="text/css" href="style1.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,23 +14,22 @@
                     <li style="color:black;">......</li>
                     <li class="pocetna"><a href="index.html">HOME</a></li>
                     <li class="kalkulator"><a href="kalkulator.html">CALCULATOR</a></li>
-                    <li class="login"><a>Login</a></li>
     
                 </ul>
             </header>
         </div>
-    
             <div class="container">
+            
                 <div class="container3">
-                <div class="container1">
+                 <div class="container1">
 
                 
                     <div class="matrix1">
 
                         <div class="prvi">
+                            <input style="border-top-left-radius: 15px"type="number" class="cell" maxlength="5" max="10"/>
                             <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
+                            <input style="border-top-right-radius: 15px" type="number" class="cell" maxlength="5" max="10"/>
                         </div>
                         
                         <div class="drugi">
@@ -41,9 +39,9 @@
                         </div>
     
                         <div class="treci">
+                            <input style="border-bottom-left-radius: 15px" type="number" class="cell" maxlength="5" max="10"/>
                             <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
+                            <input style="border-bottom-right-radius: 15px" type="number" class="cell" maxlength="5" max="10"/>
                         </div>
                     </div>
                     <div class="izmedu">
@@ -58,9 +56,9 @@
                     
                     <div class="matrix2">
                         <div class="prvi">
+                            <input style="border-top-left-radius: 15px" type="number" class="cell" maxlength="5" max="10"/>
                             <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
+                            <input style="border-top-right-radius: 15px"type="number" class="cell" maxlength="5" max="10"/>
                         </div>
                         
                         <div class="drugi">
@@ -70,19 +68,30 @@
                         </div>
     
                         <div class="treci">
+                            <input style="border-bottom-left-radius: 15px" type="number" class="cell" maxlength="5" max="10"/>
                             <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
-                            <input type="number" class="cell" maxlength="5" max="10"/>
+                            <input style="border-bottom-right-radius: 15px" type="number" class="cell" maxlength="5" max="10"/>
                         </div>
                     </div>
                 </div>
 
                     <div class="rjesenje">
+                        <div class="lijevo">
+                            <button class="gumbDetA">DETERMINANT</button>
+                            <div class="scalar">
+                                <button class="gumbScalarA">SCALAR</button>
+                                <input class="skalarA" type="number"/>
+                            </div>
+                            
+                            <button class="gumbTransA">TRANSPOSE</button>
+                            <button class="gumbInverseA">INVERSE</button>
+                        </div>
+                        
                         <div class="matrix3">
                             <div class="prvi">
+                                <div style="border-top-left-radius: 15px" class="cell1"></div>
                                 <div class="cell1"></div>
-                                <div class="cell1"></div>
-                                <div class="cell1"></div>
+                                <div style="border-top-right-radius: 15px" class="cell1"></div>
                             </div>
                             
                             <div class="drugi">
@@ -92,10 +101,21 @@
                             </div>
         
                             <div class="treci">
+                                <div style="border-bottom-left-radius: 15px" class="cell1"></div>
                                 <div class="cell1"></div>
-                                <div class="cell1"></div>
-                                <div class="cell1"></div>
+                                <div style="border-bottom-right-radius: 15px" class="cell1"></div>
                             </div>
+                        </div>
+
+                        <div class="desno">
+                            <button class="gumbDetB">DETERMINANT</button>
+                            <div class="scalar">
+                                <button class="gumbScalarB">SCALAR</button>
+                                <input class="skalarB" type="number"/>
+                            </div>
+                            
+                            <button class="gumbTransB">TRANSPOSE</button>
+                            <button class="gumbInverseB">INVERSE</button>
                         </div>
                     </div>
 
